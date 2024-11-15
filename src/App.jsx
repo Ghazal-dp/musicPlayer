@@ -16,6 +16,7 @@ useEffect(()=>{
   if (audioRef.current && track.file){
     audioRef.current.play().catch((error)=>{
       console.log(error);
+      // kjhkhkjhkh
       
     })
   }
